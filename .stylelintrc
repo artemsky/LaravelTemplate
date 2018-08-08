@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "processors": ["stylelint-processor-html"],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "no-empty-source": null,
+    "number-leading-zero": "never"
+  }
+}
